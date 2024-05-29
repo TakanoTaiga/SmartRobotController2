@@ -9,7 +9,14 @@ import SwiftUI
 
 struct XYStick: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Circle()
+                .frame(width: 130, height: 130, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .foregroundColor(.gray.opacity(0.5))
+            Circle()
+                .frame(width: 115, height: 115, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .foregroundColor(Color("White-D"))
+        }
     }
 }
 

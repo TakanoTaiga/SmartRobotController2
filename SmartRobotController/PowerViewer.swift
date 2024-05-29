@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PowerViewer: View {
+    @Binding var obj: Int
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -15,6 +16,6 @@ struct PowerViewer: View {
 
 struct PowerViewer_Previews: PreviewProvider {
     static var previews: some View {
-        PowerViewer()
+        PowerViewer(obj: 19)
     }
 }

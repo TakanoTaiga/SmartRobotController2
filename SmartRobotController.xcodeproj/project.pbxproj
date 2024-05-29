@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0DBCFF26D1E37E002D141C /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0DBCFE26D1E37E002D141C /* Color.xcassets */; };
+		FB0DBD0326D1E963002D141C /* XYStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0DBD0226D1E963002D141C /* XYStick.swift */; };
+		FB244FBE26A7036900C898DE /* XYControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB244FBD26A7036900C898DE /* XYControllerView.swift */; };
+		FB244FC026A84D9B00C898DE /* YController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB244FBF26A84D9B00C898DE /* YController.swift */; };
+		FB32539726C7B33C005F807C /* UDPControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32539626C7B33C005F807C /* UDPControllerClass.swift */; };
+		FBE3405E27EB51DD005C4CD2 /* JoystickClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE3405D27EB51DD005C4CD2 /* JoystickClass.swift */; };
+		FBF5EC67269A97970084A36D /* SmartRobotControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EC66269A97970084A36D /* SmartRobotControllerApp.swift */; };
+		FBF5EC69269A97970084A36D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EC68269A97970084A36D /* ContentView.swift */; };
+		FBF5EC6B269A97980084A36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF5EC6A269A97980084A36D /* Assets.xcassets */; };
+		FBF5EC6E269A97980084A36D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF5EC6D269A97980084A36D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB0DBCFE26D1E37E002D141C /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		FB0DBD0226D1E963002D141C /* XYStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYStick.swift; sourceTree = "<group>"; };
+		FB244FBD26A7036900C898DE /* XYControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYControllerView.swift; sourceTree = "<group>"; };
+		FB244FBF26A84D9B00C898DE /* YController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YController.swift; sourceTree = "<group>"; };
+		FB32539626C7B33C005F807C /* UDPControllerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPControllerClass.swift; sourceTree = "<group>"; };
+		FBE3405D27EB51DD005C4CD2 /* JoystickClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickClass.swift; sourceTree = "<group>"; };
+		FBF5EC63269A97970084A36D /* SmartRobotController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRobotController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF5EC66269A97970084A36D /* SmartRobotControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartRobotControllerApp.swift; sourceTree = "<group>"; };
+		FBF5EC68269A97970084A36D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBF5EC6A269A97980084A36D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF5EC6D269A97980084A36D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBF5EC6F269A97980084A36D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF5EC60269A97970084A36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBE3405C27EB5198005C4CD2 /* Joystick */ = {
+			isa = PBXGroup;
+			children = (
+				FB244FBD26A7036900C898DE /* XYControllerView.swift */,
+				FB244FBF26A84D9B00C898DE /* YController.swift */,
+				FB0DBD0226D1E963002D141C /* XYStick.swift */,
+				FBE3405D27EB51DD005C4CD2 /* JoystickClass.swift */,
+			);
+			name = Joystick;
+			sourceTree = "<group>";
+		};
+		FBF5EC5A269A97970084A36D = {
+			isa = PBXGroup;
+			children = (
+				FBF5EC65269A97970084A36D /* SmartRobotController */,
+				FBF5EC64269A97970084A36D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF5EC64269A97970084A36D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF5EC63269A97970084A36D /* SmartRobotController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF5EC65269A97970084A36D /* SmartRobotController */ = {
+			isa = PBXGroup;
+			children = (
+				FBF5EC66269A97970084A36D /* SmartRobotControllerApp.swift */,
+				FBF5EC68269A97970084A36D /* ContentView.swift */,
+				FB32539626C7B33C005F807C /* UDPControllerClass.swift */,
+				FBE3405C27EB5198005C4CD2 /* Joystick */,
+				FBF5EC6A269A97980084A36D /* Assets.xcassets */,
+				FBF5EC6F269A97980084A36D /* Info.plist */,
+				FBF5EC6C269A97980084A36D /* Preview Content */,
+				FB0DBCFE26D1E37E002D141C /* Color.xcassets */,
+			);
+			path = SmartRobotController;
+			sourceTree = "<group>";
+		};
+		FBF5EC6C269A97980084A36D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBF5EC6D269A97980084A36D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF5EC62269A97970084A36D /* SmartRobotController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF5EC72269A97980084A36D /* Build configuration list for PBXNativeTarget "SmartRobotController" */;
+			buildPhases = (
+				FBF5EC5F269A97970084A36D /* Sources */,
+				FBF5EC60269A97970084A36D /* Frameworks */,
+				FBF5EC61269A97970084A36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartRobotController;
+			productName = SmartRobotController;
+			productReference = FBF5EC63269A97970084A36D /* SmartRobotController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF5EC5B269A97970084A36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FBF5EC62269A97970084A36D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = FBF5EC5E269A97970084A36D /* Build configuration list for PBXProject "SmartRobotController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF5EC5A269A97970084A36D;
+			productRefGroup = FBF5EC64269A97970084A36D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF5EC62269A97970084A36D /* SmartRobotController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF5EC61269A97970084A36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF5EC6E269A97980084A36D /* Preview Assets.xcassets in Resources */,
+				FBF5EC6B269A97980084A36D /* Assets.xcassets in Resources */,
+				FB0DBCFF26D1E37E002D141C /* Color.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF5EC5F269A97970084A36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE3405E27EB51DD005C4CD2 /* JoystickClass.swift in Sources */,
+				FBF5EC69269A97970084A36D /* ContentView.swift in Sources */,
+				FB244FC026A84D9B00C898DE /* YController.swift in Sources */,
+				FB0DBD0326D1E963002D141C /* XYStick.swift in Sources */,
+				FB32539726C7B33C005F807C /* UDPControllerClass.swift in Sources */,
+				FB244FBE26A7036900C898DE /* XYControllerView.swift in Sources */,
+				FBF5EC67269A97970084A36D /* SmartRobotControllerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBF5EC70269A97980084A36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF5EC71269A97980084A36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF5EC73269A97980084A36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1400;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartRobotController/Preview Content\"";
+				DEVELOPMENT_TEAM = 23W3KFU297;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmartRobotController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF5EC74269A97980084A36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1400;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartRobotController/Preview Content\"";
+				DEVELOPMENT_TEAM = 23W3KFU297;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmartRobotController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF5EC5E269A97970084A36D /* Build configuration list for PBXProject "SmartRobotController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF5EC70269A97980084A36D /* Debug */,
+				FBF5EC71269A97980084A36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF5EC72269A97980084A36D /* Build configuration list for PBXNativeTarget "SmartRobotController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF5EC73269A97980084A36D /* Debug */,
+				FBF5EC74269A97980084A36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF5EC5B269A97970084A36D /* Project object */;
+}

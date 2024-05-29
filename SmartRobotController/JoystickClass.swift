@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+class JoystickValue : ObservableObject {
+    @Published var XYControllerPower : Int = 0
+    @Published var XYControllerDegree : Int = 0
+    @Published var YControllerPower : Int = 0
+}
